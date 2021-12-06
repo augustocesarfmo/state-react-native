@@ -2,7 +2,7 @@
 
 Aplicação _mobile_ para ilustrar o funcionamento básico do controle de estado no React Native utilizando os métodos de: listagem de informações; adição de informações; e remoção de informações.
 
-<div style="display: 'flex'; justify-content: 'space-around';">
+<div style="display: flex; justify-content: space-evenly; width: 100%">
     <img alt="Rocketshoes" title="Rocketshoes" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/print_screen_01.png?raw=true" width="250px"  /><img alt="Rocketshoes" title="Rocketshoes" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/screen_recording_01.gif?raw=true" width="230px"  />
 </div>
 
