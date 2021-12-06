@@ -11,9 +11,10 @@ import {
 import 'react-native-get-random-values';
 import {v4 as uuidv4} from 'uuid';
 
+// Dados iniciais
 const data = [
   {
-    name: 'Banada',
+    name: 'Banana',
     id: uuidv4(),
   },
   {
@@ -27,6 +28,7 @@ const data = [
 ];
 
 const App = () => {
+  // Estado da aplicação
   const [products, setProducts] = useState(data);
 
   function getRandomInt(min, max) {
@@ -35,15 +37,22 @@ const App = () => {
     return Math.floor(Math.random() * (max - min)) + min;
   }
 
+  /**
+   * Método para adição de novos produtos ao estado.
+   */
   function handleAddProduct() {
-    setProducts([
-      {name: `Produto ${getRandomInt(1, 100)}`, id: uuidv4()},
-      ...products,
-    ]);
+    const newProduct = {name: `Produto ${getRandomInt(1, 100)}`, id: uuidv4()};
+
+    setProducts([newProduct, ...products]);
   }
 
+  /**
+   * Método para remoção de itens do estado.
+   */
   function handleRemoveProduct(item) {
-    setProducts(products.filter(product => product.id !== item.id));
+    const filteredProducts = products.filter(product => product.id !== item.id);
+
+    setProducts(filteredProducts);
   }
 
   return (
@@ -52,6 +61,7 @@ const App = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={styles.scrollViewContainer}>
+        {/* Método de listagem dos produtos do estado */}
         {products.map(item => (
           <View style={styles.productContainer} key={item.id}>
             <Text style={styles.productText}>{item.name}</Text>
