@@ -2,9 +2,10 @@
 
 Aplicação _mobile_ para ilustrar o funcionamento básico do controle de estado no React Native utilizando os métodos de: listagem de informações; adição de informações; e remoção de informações.
 
-<h1 align="center">
-    <img style="display: block; margin-right: 20px" alt="SupermarketList" title="SupermarketList print screen" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/print_screen_01.png?raw=true" width="250px"  /><img alt="SupermarketList" title="SupermarketList screen recording" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/screen_recording_01.gif?raw=true" width="230px"  />
-</h1>
+<p align="center" width="100%">
+    <img style="float:none;margin-left:auto;margin-right:15px;width:33%" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/print_screen_01.png?raw=true">
+    <img width="30%" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/screen_recording_01.gif?raw=true">
+</p>
 
 ## 🚀 Tecnologias
 
