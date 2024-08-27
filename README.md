@@ -1,6 +1,6 @@
 # SupermarketList
 
-Aplicação _mobile_ para ilustrar o funcionamento básico do controle de estado no React Native utilizando os métodos de: listagem de informações; adição de informações; e remoção de informações.
+Aplicação móvel que ilustra o funcionamento básico do controle de estado no React Native utilizando os métodos de: listagem de informações; adição de informações; e remoção de informações.
 
 <p align="center">
     <img alt="SupermarketList screenshot" title="SupermarketList screenshot" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/print_screen_01.png?raw=true" width="250px" />&emsp;&emsp;<img alt="SupermarketList gif" title="SupermarketList gif" src="https://github.com/augustocesarfmo/state-react-native/blob/master/media/screen_recording_01.gif?raw=true" width="230px" />
